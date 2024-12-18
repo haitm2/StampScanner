@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "64865540517",
+    "project_id": "stamp-identifier-thuanvu",
+    "storage_bucket": "stamp-identifier-thuanvu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64865540517:android:885cc76c85cf76c6ed304c",
+        "android_client_info": {
+          "package_name": "com.thedudeapp.stamp.identifier"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmfcPAnZIc5_co9gYoMUJSv_DpEMb0SIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+      "admob_app_id": "ca-app-pub-1354543839348242~6511965931"
+    }
+  ],
+  "configuration_version": "1"
+}

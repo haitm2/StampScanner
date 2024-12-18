@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "StampScanner",
+    "slug": "stamp-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ducdm.tcgscanner"
+
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thedudeapp.stamp.identifier"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "plugins": [
+    [
+      "expo-tracking-transparency",
+      {
+        "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+      }
+    ],
+    [
+      "expo-camera",
+      {
+        "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to identify stamp from camera",
+        "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+        "recordAudioAndroid": true
+      }
+    ],
+    [
+      "react-native-iap",
+      {
+        "paymentProvider": "both"
+      }
+    ],
+    [
+      "expo-asset",
+      {
+        "assets": ["assets"]
+      }
+    ],
+    [
+      "expo-build-properties",
+      {
+        "android": {
+          "compileSdkVersion": 35,
+          "targetSdkVersion": 35,
+          "buildToolsVersion": "35.0.0"
+        },
+        "ios": {
+          "deploymentTarget": "15.1"
+        }
+      }
+    ]
+  ],
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-1354543839348242~6511965931",
+    "ios_app_id": "ca-app-pub-1354543839348242~6550610872"
+  }
+}
